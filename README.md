@@ -15,7 +15,7 @@ For the spatial-based training (SB-training), the model has 15 input channels wh
 
 
 ### Reconstructions (SB)
-The model is trained with 15 input channels where each channel receives data from one electrode.
+The model is trained with 15 input channels where each channel receives data from one electrode. The reconstructions (R) with their corresponding targets (T) of the entire test dataset are shown in the following figure:
 <img src="Figures/recons_spatial.png" alt="reconstructions temporal based" width="700"/> 
 
 
