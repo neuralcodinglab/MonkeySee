@@ -28,7 +28,7 @@ The time windows are 133ms originally. We train them on 27 ms for this experimen
 
 <img src="Figures/time_windows.png" alt="time windows" width="700"/> 
 
-### Reconstructions (SB)
+### Reconstructions (TB)
 The model is trained with 15 input channels, with each channel receiving 5 RFSimages per ROI. The reconstructions (R) with their corresponding targets (T) of the entire test dataset are shown in the following figure:
 
 <img src="Figures/recons_times.png" alt="reconstructions temporal based" width="700"/> 
