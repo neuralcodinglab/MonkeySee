@@ -52,7 +52,14 @@ def make_indices_all_days():
     
     return test_indices, train_indices
 
-def extract_electrodes_with_nans(roi_train_on):
+def extract_electrodes_with_nans(rois):
+
+    '''
+    
+    Based on the rois given, it will return the electrode indices.
+    Rois must be a list of roi names such as ['V1'] or ['V1', 'V2'].
+    
+    '''
 
     electrodes_v1         = [*(range(1,9))] # electrode #6 doesnt exist
     electrodes_v4         = [*(range(9,13))]
@@ -63,10 +70,12 @@ def extract_electrodes_with_nans(roi_train_on):
 
     roi_electrodes            = []
 
-    for r in roi_train_on:
+    for r in rois:
         roi_electrodes.extend(roi_dic[r])
     
     return roi_electrodes
+
+    
 def electrodes_to_channels_with_nans(electrodes):
     
     '''
