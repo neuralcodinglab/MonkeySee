@@ -16,6 +16,7 @@ For the spatial-based training (SB-training), the model has 15 input channels wh
 
 ### Reconstructions (SB)
 The model is trained with 15 input channels where each channel receives data from one electrode. The reconstructions (R) with their corresponding targets (T) of the entire test dataset are shown in the following figure:
+
 <img src="Figures/recons_spatial.png" alt="reconstructions temporal based" width="700"/> 
 
 
@@ -25,7 +26,7 @@ We also train a model that is split into 3 ROIs and time chunks of 5, instead of
 
 The time windows are 133ms originally. We train them on 27 ms for this experiment giving each channel 27ms. The exact time windows are displayed below.
 
-<img src="Figures/time_windows.png" alt="time windows" width="500"/> 
+<img src="Figures/time_windows.png" alt="time windows" width="700"/> 
 
 ### Reconstructions (SB)
 The model is trained with 15 input channels, with each channel receiving 5 RFSimages per ROI. The reconstructions (R) with their corresponding targets (T) of the entire test dataset are shown in the following figure:
