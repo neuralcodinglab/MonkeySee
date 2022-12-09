@@ -15,7 +15,18 @@ For the spatial-based training (SB-training), the model has 15 input channels wh
 
 
 ### Reconstructions (SB)
-The model is trained with 15 input channels where each channel receives data from one electrode. The reconstructions (R) with their corresponding targets (T) of the entire test dataset are shown in the following figure:
+The model is trained with 15 input channels where each channel receives data from one electrode. The reconstructions (R) with their corresponding targets (T) of the entire test dataset are shown in the following figure. The following hyper parameters were used for obtaining these reconstructions during training:
+
+
+```
+disc = 0.01 
+alpha_px = 0.5
+beta_vgg = 1
+
+epochs = 50
+```
+
+
 
 <img src="Figures/recons_spatial.png" alt="reconstructions temporal based" width="700"/> 
 
@@ -24,11 +35,19 @@ The model is trained with 15 input channels where each channel receives data fro
 ### Time-windows 
 We also train a model that is split into 3 ROIs and time chunks of 5, instead of 15 electrodes (TB-training). This means we take a timewindow of the original time windows that we train the spatial-based model on, and split them onto 5. Then we take the average of those windows and take the dot product between the signals the the static RFSimage belonging to the region of interest. 
 
-The time windows are 133ms originally. We train them on 27 ms for this experiment giving each channel 27ms. The exact time windows are displayed below.
+The time windows are 133ms originally. We train them on 27 ms for this experiment giving each channel 27ms. The exact time windows are displayed below. 
+
 
 <img src="Figures/time_windows.png" alt="time windows" width="700"/> 
 
 ### Reconstructions (TB)
-The model is trained with 15 input channels, with each channel receiving 5 RFSimages per ROI. The reconstructions (R) with their corresponding targets (T) of the entire test dataset are shown in the following figure:
+The model is trained with 15 input channels, with each channel receiving 5 RFSimages per ROI. The reconstructions (R) with their corresponding targets (T) of the entire test dataset are shown in the following figure. The following hyper parameters were used for obtaining these reconstructions during training:
+```
+disc = 0.01 
+alpha_px = 0.5
+beta_vgg = 1
+
+epochs = 75
+```
 
 <img src="Figures/recons_times.png" alt="reconstructions temporal based" width="700"/> 
