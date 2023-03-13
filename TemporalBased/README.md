@@ -8,7 +8,9 @@
 
  IT: $| TW3_i | TW3_{i+26} | TW3_{i+52} | TW_{i+78} | TW_{i+104} |$
 
-See the figures in the Figures folder in this directory for the resulting images of this experiment. In this experiment, we are interested in the reconstructions resulting in a forward pass using the following 44 conditions:
+## Conditions
+
+In this experiment, we are interested in the reconstructions resulting in a forward pass using the following 44 conditions:
 
 ---
 ### <b> TW_all</b>
@@ -104,3 +106,23 @@ IT
 
 </it>
 
+## Figures
+---
+### <b> TW_all</b>
+---
+![TW_all_all](Figures/TW_all/V1V4IT.png "TW_all_all")
+![TW_all_V1](Figures/TW_all/V1.png "TW_all_V1")
+![TW_all_V4](Figures/TW_all/V4.png "TW_all_V4")
+![TW_all_IT](Figures/TW_all/IT.png "TW_all_IT")
+
+---
+### <b> TW_1</b>
+---
+all rois
+![TW_1_all_rois_0](Figures/TW_1/all_rois/all_0.png "TW_1_all_rois_0")
+![TW_1_all_rois_1](Figures/TW_1/all_rois/all_1.png "TW_1_all_rois_1")
+![TW_1_all_rois_2](Figures/TW_1/all_rois/all_2.png "TW_1_all_rois_2")
+![TW_1_all_rois_3](Figures/TW_1/all_rois/all_3.png "TW_1_all_rois_3")
+![TW_1_all_rois_4](Figures/TW_1/all_rois/all_4.png "TW_1_all_rois_4")
+
+---
