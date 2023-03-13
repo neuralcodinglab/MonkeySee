@@ -2,34 +2,34 @@
 ## Experiments
  We show the different outputs resulting from setting some weights from the TB-model of the input channels to 0. It is trained on 15 channels. 
  
- V1: $ | TW3_i | TW3_{i+26} | TW3_{i+52} | TW_{i+78} | TW_{i+104} |$
+ V1: $| TW3_i | TW3_{i+26} | TW3_{i+52} | TW_{i+78} | TW_{i+104} |$
 
- V4: $ | TW3_i | TW3_{i+26} | TW3_{i+52} | TW_{i+78} | TW_{i+104} |$
+ V4: $| TW3_i | TW3_{i+26} | TW3_{i+52} | TW_{i+78} | TW_{i+104} |$
 
- IT: $ | TW3_i | TW3_{i+26} | TW3_{i+52} | TW_{i+78} | TW_{i+104} |$
+ IT: $| TW3_i | TW3_{i+26} | TW3_{i+52} | TW_{i+78} | TW_{i+104} |$
 
-See the figures in the Figures folder in this directory for the resulting images of this experiment. In this experiment, we are interested in the reconstructions resulting in a forward pass using the following conditions:
+See the figures in the Figures folder in this directory for the resulting images of this experiment. In this experiment, we are interested in the reconstructions resulting in a forward pass using the following 44 conditions:
 
 ---
 ### <b> TW_all</b>
 ---
 <it>
 
-- V1 + V4 + IT: $ | TW3_i | TW3_{i+26} | TW3_{i+52} | TW_{i+78} | TW_{i+104} | $   
-- V1: $ | TW3_i | TW3_{i+26} | TW3_{i+52} | TW_{i+78} | TW_{i+104} | $   
-- V4 $ | TW3_i | TW3_{i+26} | TW3_{i+52} | TW_{i+78} | TW_{i+104} | $   
-- IT: $ | TW3_i | TW3_{i+26} | TW3_{i+52} | TW_{i+78} | TW_{i+104} | $   
+- V1 + V4 + IT: $| TW3_i | TW3_{i+26} | TW3_{i+52} | TW_{i+78} | TW_{i+104} |$   
+- V1: $| TW3_i | TW3_{i+26} | TW3_{i+52} | TW_{i+78} | TW_{i+104} |$   
+- V4 $| TW3_i | TW3_{i+26} | TW3_{i+52} | TW_{i+78} | TW_{i+104} |$   
+- IT: $| TW3_i | TW3_{i+26} | TW3_{i+52} | TW_{i+78} | TW_{i+104} |$   
 
 ---
 ### <b> TW_1</b>
 ---
 
 All rois
-- V1 + V4 + IT:$ | TW3_{i} | $ 
-- V1 + V4 + IT:$ | TW3_{i+26} | $   
-- V1 + V4 + IT:$ | TW3_{i+52} | $  
-- V1 + V4 + IT:$ | TW3_{i+78}  | $
-- V1 + V4 + IT:$ | TW3_{i+104}  | $
+- V1 + V4 + IT:$| TW3_{i} |$ 
+- V1 + V4 + IT:$| TW3_{i+26} |$   
+- V1 + V4 + IT:$| TW3_{i+52} |$  
+- V1 + V4 + IT:$| TW3_{i+78}  |$
+- V1 + V4 + IT:$| TW3_{i+104}  |$
 
 ---
 
