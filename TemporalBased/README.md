@@ -118,7 +118,8 @@ IT
 ---
 ### <b> TW_1</b>
 ---
-all rois
+#### all rois
+
 ![TW_1_all_rois_0](Figures/tw_1/all_rois/all_0.png "TW_1_all_rois_0")
 ![TW_1_all_rois_1](Figures/tw_1/all_rois/all_1.png "TW_1_all_rois_1")
 ![TW_1_all_rois_2](Figures/tw_1/all_rois/all_2.png "TW_1_all_rois_2")
@@ -126,3 +127,70 @@ all rois
 ![TW_1_all_rois_4](Figures/tw_1/all_rois/all_4.png "TW_1_all_rois_4")
 
 ---
+#### V1
+
+![TW_1_all_rois_0](Figures/tw_1/V1/V1_0.png "TW_1_IT_0")
+![TW_1_all_rois_1](Figures/tw_1/V1/V1_1.png "TW_1_IT_1")
+![TW_1_all_rois_2](Figures/tw_1/V1/V1_2.png "TW_1_IT_2")
+![TW_1_all_rois_3](Figures/tw_1/V1/V1_3.png "TW_1_IT_3")
+![TW_1_all_rois_4](Figures/tw_1/V1/V1_4.png "TW_1_IT_4")
+
+---
+#### V4
+
+![TW_1_all_rois_0](Figures/tw_1/V4/V4_0.png "TW_1_IT_0")
+![TW_1_all_rois_1](Figures/tw_1/V4/V4_1.png "TW_1_IT_1")
+![TW_1_all_rois_2](Figures/tw_1/V4/V4_2.png "TW_1_IT_2")
+![TW_1_all_rois_3](Figures/tw_1/V4/V4_3.png "TW_1_IT_3")
+![TW_1_all_rois_4](Figures/tw_1/V4/V4_4.png "TW_1_IT_4")
+
+---
+#### IT
+
+![TW_1_all_rois_0](Figures/tw_1/IT/IT_0.png "TW_1_IT_0")
+![TW_1_all_rois_1](Figures/tw_1/IT/IT_1.png "TW_1_IT_1")
+![TW_1_all_rois_2](Figures/tw_1/IT/IT_2.png "TW_1_IT_2")
+![TW_1_all_rois_3](Figures/tw_1/IT/IT_3.png "TW_1_IT_3")
+![TW_1_all_rois_4](Figures/tw_1/IT/IT_4.png "TW_1_IT_4")
+
+---
+
+
+---
+### <b> TW_4</b>
+---
+#### all rois
+
+![TW_1_all_rois_0](Figures/tw_4/all_rois/all_0.png "TW_1_all_rois_0")
+![TW_1_all_rois_1](Figures/tw_4/all_rois/all_1.png "TW_1_all_rois_1")
+![TW_1_all_rois_2](Figures/tw_4/all_rois/all_2.png "TW_1_all_rois_2")
+![TW_1_all_rois_3](Figures/tw_4/all_rois/all_3.png "TW_1_all_rois_3")
+![TW_1_all_rois_4](Figures/tw_4/all_rois/all_4.png "TW_1_all_rois_4")
+
+---
+#### V1
+
+![TW_1_all_rois_0](Figures/tw_4/V1/V1_0.png "TW_1_IT_0")
+![TW_1_all_rois_1](Figures/tw_4/V1/V1_1.png "TW_1_IT_1")
+![TW_1_all_rois_2](Figures/tw_4/V1/V1_2.png "TW_1_IT_2")
+![TW_1_all_rois_3](Figures/tw_4/V1/V1_3.png "TW_1_IT_3")
+![TW_1_all_rois_4](Figures/tw_4/V1/V1_4.png "TW_1_IT_4")
+
+---
+#### V4
+
+![TW_1_all_rois_0](Figures/tw_4/V4/V4_0.png "TW_1_IT_0")
+![TW_1_all_rois_1](Figures/tw_4/V4/V4_1.png "TW_1_IT_1")
+![TW_1_all_rois_2](Figures/tw_4/V4/V4_2.png "TW_1_IT_2")
+![TW_1_all_rois_3](Figures/tw_4/V4/V4_3.png "TW_1_IT_3")
+![TW_1_all_rois_4](Figures/tw_4/V4/V4_4.png "TW_1_IT_4")
+
+---
+#### IT
+
+![TW_1_all_rois_0](Figures/tw_4/IT/IT_0.png "TW_1_IT_0")
+![TW_1_all_rois_1](Figures/tw_4/IT/IT_1.png "TW_1_IT_1")
+![TW_1_all_rois_2](Figures/tw_4/IT/IT_2.png "TW_1_IT_2")
+![TW_1_all_rois_3](Figures/tw_4/IT/IT_3.png "TW_1_IT_3")
+![TW_1_all_rois_4](Figures/tw_4/IT/IT_4.png "TW_1_IT_4")
+
